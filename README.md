@@ -23,13 +23,32 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility in programming means making web pages and the internet accessible to all people, regardless of how they need to interact with a page. This includes people with auditory disabilities, visual disabilities and any other type of physical disabilities, as well as people who can only access mobile devices or have slow internet. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    1) Adding Responsive Units such as scalable units in CSS - REM, EM or %(percentages)
+    2) Using semantic tags when coding in HTML and using meaningful id and class names as well as giving all images "alt" text.
+    3) Use colors that contrast well and avoid using colors that are red or green. When possible, use a visual counterpart, like a symbol, in colorful displays that are trying to convey a message (e.g. the stop symbol or a picture of a hand).
+
 3. How would you explain the concept of a variable to someone new to programming?
 
-A variable is an item like a word or number we'd like to test in our code.
+First, a variable is a symbolic name or letter that we give to a set of information we'd like to reference. In programming, a variable (i.e. symbolic name) represents any possible values that can change, depending on conditions or on information passed to the computer program.
 
 4. What is the purpose of using functions in code?
+
+The purpose of using functions is to avoid writing code multiple times. Functions allow developers to repeat sections of code with just a single line, keeping the code DRY.
+
 5. How do you access a key inside of an object inside of an array?
+
+By using bracket notation to access the index and then using either dot or bracket notation to access the key. For example:
+
+Example 1 - objectName[indexNumber].keyName 
+or 
+Example 2 -[indexNumber]['keyName']
+
+Note, for Example 2 (bracket notation) you must use a string or number or variable poiting to a string or number to access the key.
+    
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
