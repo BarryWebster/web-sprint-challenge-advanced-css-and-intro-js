@@ -24,10 +24,11 @@ Please answer the following questions below, you may edit the readme file to inc
 
 1. How would you describe acessibility on the web to someone new to programming?
 
-Accessibility in programming means making web pages and the internet accessible to all people, regardless of how they need to interact with a page. This includes people with auditory disabilities, visual disabilities and any other type of physical disabilities, as well as people who can only access mobile devices or have slow internet. 
+Accessibility in programming means making web pages and the internet accessible to all people, regardless of how they need to interact with a page. This includes people with auditory disabilities, visual disabilities and any other type of physical disabilities; as well as people who can only access mobile devices or have slow internet. 
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
-    1) Adding Responsive Units such as scalable units in CSS - REM, EM or %(percentages)
+
+    1) Adding Responsive Units such as scalable units in CSS - REM, EM or %(percentages).
     2) Using semantic tags when coding in HTML and using meaningful id and class names as well as giving all images "alt" text.
     3) Use colors that contrast well and avoid using colors that are red or green. When possible, use a visual counterpart, like a symbol, in colorful displays that are trying to convey a message (e.g. the stop symbol or a picture of a hand).
 
@@ -41,13 +42,20 @@ The purpose of using functions is to avoid writing code multiple times. Function
 
 5. How do you access a key inside of an object inside of an array?
 
-By using bracket notation to access the index and then using either dot or bracket notation to access the key. For example:
+By typing the following notation together (with no spaces):
+
+    a) Object name
+    b) The numerical position (index) of the key in the array 
+    c) Using either dot or bracket notation to access the key and lastly, the key's name.
+
+Please see the following examples:
 
 Example 1 - objectName[indexNumber].keyName 
 or 
-Example 2 -[indexNumber]['keyName']
+Example 2 - objectName[indexNumber]['keyName']
 
-Note, for Example 2 (bracket notation) you must use a string or number or variable poiting to a string or number to access the key.
+Note, for Example 2 (bracket notation) you must use a string or number or variable pointing to a string or number to access the key. You have to use bracket notation if your keys are strings with spaces in them.
+
     
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
