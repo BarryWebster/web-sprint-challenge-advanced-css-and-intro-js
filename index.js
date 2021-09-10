@@ -294,19 +294,20 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(array, number, string1, string2, string3, string4, string5) {
+function addArtist(array) {
   array.push({ 
-    id: number,
-    name: string1, 
-    years: string2,
-    genre: string3,
-    nationality: string4,
-    bio: string5,
+    id: 20,
+    name: 'Barry', 
+    years: '1989-current',
+    genre: 'Web Design',
+    nationality: 'American',
+    bio: 'lorem ipsum',
   });
-  return (array);
+  return array;
 }
 
-console.log('Task 6:', addArtist(artists, 20, 'Your Name Here', 'Your Birth Year - current day','Web Design', 'Your Nationality Here', 'Add 1-2 sentences (or use lorem ipsum)'));
+
+console.log('Task 6:', addArtist(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -316,13 +317,13 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array) {
-  let hundredsArray = [];
-  for (let i = 0; i < array.length; i++){
-  if (array[i].paintings > 100); {
+  let hundredsArray = []
+for(let i = 0; i < array.length; i++){
+  if(array[i].paintings > 100){
     hundredsArray.push(array[i].name);
   }
-  }
-  return hundredsArray;
+}
+return hundredsArray;
 }
 
 console.log('Task 7:', lotsOfArt(artists));
